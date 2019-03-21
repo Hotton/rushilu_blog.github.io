@@ -72,3 +72,10 @@ div.post-copyright {
 
 
 
+
+
+.article-end-text-wrap {
+  margin: 5px 0; }
+.article-end-text{
+max-width: 100%; }
+
