@@ -263,6 +263,8 @@
 
 
 
+
+
     <div class="gitment-comment">
     <div id="container"></div>
 </div>
@@ -271,6 +273,7 @@
 <script>
     var gitment = new Gitment({
         // id default is location.href
+        id: '{{date format="YYYYMMDDHHmmss"}}',
         owner: 'Hotton',
         repo: 'rushilu_blog.github.io',
         oauth: {
