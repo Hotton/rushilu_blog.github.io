@@ -167,7 +167,6 @@
 
 
 
-
     <p class="show-toc-btn" id="show-toc-btn" onclick="showToc();" style="display:none">
           <span class="btn-bg"></span>
           <span class="btn-text">文章导航</span>
@@ -197,9 +196,6 @@
 
 
 
-
-
-
     
     <div class="cube-article-header">
         <div class="cube-article-date">
@@ -214,16 +210,10 @@
     
 </div>
     </div>
-
-
     
     <div class="cube-article-content cube-markdown">
         
-
-
-
-
-           <h1><span id="第一章">第一章</span></h1><p>东海某地：</p>
+        <h1><span id="第一章">第一章</span></h1><p>东海某地：</p>
 <p>“怪老头，把八卦小宝还给我，我向你保证我不带他乱跑了还不行么……”一个女孩子的声音这时传遍了这里的每一座山。直插天际的山峰被绿树覆盖着，山顶埋在雾中不见其顶。这一声并没有让静谧的山峰有丝毫反应，甚至连一只惊起的飞鸟都没有。</p>
 <a id="more"></a>
 <p>少女站在溪水旁讪讪的跺了跺脚，撇了撇她的小嘴。这时一片樱花瓣掉落在她的鼻尖。“阿嚏…”“好啊，你也欺负我。不过我要赶快去问怪老头要我的八卦小宝，今天没空跟你聊天啦，樱老头再见”说罢少女踩着鹅卵石的小路，一蹦一跳地往下游走了。</p>
@@ -707,12 +697,6 @@
 <p>周老头自语道：“但愿他没有发现丫头，这么多灵力足够让你看到这边来了吧。这黑衣人果然有一套，看来这人的前来也在他的算计中，被摆了一道啊。哦？来了。”</p>
 <p>不远的天空中两黑点渐渐放大，借风雪之势，几息之间便出现在了周老头面前。</p>
 
-
-
-
-
-
-
     </div>
 </div>
 
@@ -732,12 +716,24 @@
 
 
 
-
-
-
-
-
-
+    <div class="gitment-comment">
+    <div id="container"></div>
+</div>
+<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+    var gitment = new Gitment({
+        // id default is location.href
+        owner: 'Hotton',
+        repo: 'rushilu_blog.github.io',
+        oauth: {
+            client_id: '6882484479496928cd13',
+            client_secret: '1eb3c43504f0ed2d3d6138e68411dfeb26ee1cab',
+        },
+    })
+    gitment.render('container')
+</script>
+    
 
 
 
@@ -849,7 +845,7 @@
     <div class="cube-boxs">
         
         
-        <div class="cube-box ">
+        <div class="cube-box-bg ">
             <a href="/rushilu_blog.github.io/categories/构架/">#构架</a>
         </div>
         
